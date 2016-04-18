@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics generated="2016-04-18T05:25:35" pdepend="@package_version@" ahh="1.1666666666667" andc="0" calls="59" ccn="62" ccn2="63" cloc="405" clsa="0" clsc="16" eloc="599" fanout="96" leafs="9" lloc="381" loc="1237" maxDIT="2" ncloc="832" noc="16" nof="0" noi="11" nom="78" nop="6" roots="7">
+  <files>
+    <file name="/var/www/html/Veloci/User/src/Exception/AuthenticationFailException.php" loc="30" cloc="9" eloc="15" lloc="8" ncloc="21"/>
+    <file name="/var/www/html/Veloci/User/src/Exception/ValidationException.php" loc="40" cloc="17" eloc="16" lloc="8" ncloc="23"/>
+    <file name="/var/www/html/Veloci/User/src/Factory/UserFactoryDefault.php" loc="52" cloc="19" eloc="25" lloc="14" ncloc="33"/>
+    <file name="/var/www/html/Veloci/User/src/Factory/UserSessionFactoryDefault.php" loc="41" cloc="13" eloc="20" lloc="10" ncloc="28"/>
+    <file name="/var/www/html/Veloci/User/src/Factory/UserTokenFactoryDefault.php" loc="26" cloc="11" eloc="12" lloc="6" ncloc="15"/>
+    <file name="/var/www/html/Veloci/User/src/Manager/AuthManagerDefault.php" loc="108" cloc="40" eloc="52" lloc="33" ncloc="68"/>
+    <file name="/var/www/html/Veloci/User/src/Manager/UserManagerDefault.php" loc="81" cloc="26" eloc="40" lloc="23" ncloc="55"/>
+    <file name="/var/www/html/Veloci/User/src/Model/UserDefault.php" loc="130" cloc="34" eloc="67" lloc="37" ncloc="96"/>
+    <file name="/var/www/html/Veloci/User/src/Model/UserRoleDefault.php" loc="23" cloc="3" eloc="15" lloc="7" ncloc="20"/>
+    <file name="/var/www/html/Veloci/User/src/Model/UserSessionDefault.php" loc="61" cloc="24" eloc="27" lloc="15" ncloc="37"/>
+    <file name="/var/www/html/Veloci/User/src/Model/UserTokenDefault.php" loc="31" cloc="9" eloc="16" lloc="8" ncloc="22"/>
+    <file name="/var/www/html/Veloci/User/src/Repository/InMemoryUserRepository.php" loc="55" cloc="19" eloc="26" lloc="14" ncloc="36"/>
+    <file name="/var/www/html/Veloci/User/src/Repository/InMemoryUserSessionRepository.php" loc="53" cloc="18" eloc="26" lloc="16" ncloc="35"/>
+    <file name="/var/www/html/Veloci/User/src/Repository/MongoDbUserRepository.php" loc="58" cloc="17" eloc="29" lloc="17" ncloc="41"/>
+    <file name="/var/www/html/Veloci/User/src/Repository/MongoDbUserSessionRepository.php" loc="56" cloc="17" eloc="30" lloc="18" ncloc="39"/>
+    <file name="/var/www/html/Veloci/User/src/UserPackage.php" loc="131" cloc="20" eloc="93" lloc="75" ncloc="111"/>
+  </files>
+  <package name="Veloci\User\Exception" noc="2" noi="0" nom="4" nof="0" cr="0.15" rcr="0.2775">
+    <class name="AuthenticationFailException" start="13" end="30" loc="18" cloc="3" eloc="7" lloc="3" ncloc="15" dit="2" noam="2" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.2775" ca="1" cbo="0" ce="0" impl="0" cis="2" csz="3" npm="2" vars="1" varsi="1" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/var/www/html/Veloci/User/src/Exception/AuthenticationFailException.php"/>
+      <method name="__construct" start="20" end="25" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="10" hnd="11" hv="34.594316186373" hd="5.25" hl="0.19047619047619" he="181.62015997846" ht="10.090008887692" hb="0.010690256224877" hi="6.5893935593091" mi="75.956050577813"/>
+      <method name="getCause" start="27" end="29" ccn="1" ccn2="1" loc="3" cloc="0" eloc="3" lloc="1" ncloc="3" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+    </class>
+    <class name="ValidationException" start="14" end="40" loc="27" cloc="11" eloc="7" lloc="3" ncloc="16" dit="2" noam="2" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.2775" ca="1" cbo="0" ce="0" impl="0" cis="2" csz="3" npm="2" vars="1" varsi="1" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/var/www/html/Veloci/User/src/Exception/ValidationException.php"/>
+      <method name="__construct" start="26" end="31" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="10" hnd="11" hv="34.594316186373" hd="5.25" hl="0.19047619047619" he="181.62015997846" ht="10.090008887692" hb="0.010690256224877" hi="6.5893935593091" mi="75.956050577813"/>
+      <method name="getErrors" start="36" end="39" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+    </class>
+  </package>
+  <package name="Veloci\User\Factory" noc="3" noi="3" nom="9" nof="0" cr="0.15" rcr="0.2775">
+    <class name="UserFactoryDefault" start="19" end="52" loc="34" cloc="13" eloc="12" lloc="3" ncloc="21" dit="2" noam="4" nocc="0" noom="0" nom="4" cr="0.15" rcr="0.3954375" ca="1" cbo="4" ce="4" impl="2" cis="1" csz="4" npm="1" vars="0" varsi="0" varsnp="0" wmc="6" wmci="6" wmcnp="1">
+      <file name="/var/www/html/Veloci/User/src/Factory/UserFactoryDefault.php"/>
+      <method name="__construct" start="26" end="29" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="10" hnd="11" hv="34.594316186373" hd="5.25" hl="0.19047619047619" he="181.62015997846" ht="10.090008887692" hb="0.010690256224877" hi="6.5893935593091" mi="78.681459685251"/>
+      <method name="preCreate" start="31" end="40" ccn="1" ccn2="1" loc="10" cloc="8" eloc="2" lloc="0" ncloc="2" npath="1" hnt="2" hnd="2" hv="2" hd="2" hl="0.5" he="4" ht="0.22222222222222" hb="0.00083994736659658" hi="1" mi="91.191023588314"/>
+      <method name="postCreate" start="42" end="45" ccn="1" ccn2="1" loc="4" cloc="0" eloc="2" lloc="0" ncloc="4" npath="1" hnt="2" hnd="2" hv="2" hd="2" hl="0.5" he="4" ht="0.22222222222222" hb="0.00083994736659658" hi="1" mi="91.191023588314"/>
+      <method name="fillData" start="47" end="51" ccn="2" ccn2="3" loc="5" cloc="0" eloc="5" lloc="2" ncloc="5" npath="3" hnt="16" hnd="22" hv="71.350905898197" hd="7.9444444444444" hl="0.12587412587413" he="566.84330796901" ht="31.491294887167" hb="0.022830780630894" hi="8.9812329102625" mi="71.371657081038"/>
+    </class>
+    <class name="UserSessionFactoryDefault" start="20" end="41" loc="22" cloc="7" eloc="7" lloc="1" ncloc="15" dit="2" noam="3" nocc="0" noom="0" nom="3" cr="0.15" rcr="0.3954375" ca="1" cbo="4" ce="4" impl="2" cis="1" csz="3" npm="1" vars="0" varsi="0" varsnp="0" wmc="3" wmci="3" wmcnp="1">
+      <file name="/var/www/html/Veloci/User/src/Factory/UserSessionFactoryDefault.php"/>
+      <method name="__construct" start="27" end="30" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="10" hnd="11" hv="34.594316186373" hd="5.25" hl="0.19047619047619" he="181.62015997846" ht="10.090008887692" hb="0.010690256224877" hi="6.5893935593091" mi="78.681459685251"/>
+      <method name="preCreate" start="32" end="35" ccn="1" ccn2="1" loc="4" cloc="1" eloc="2" lloc="0" ncloc="3" npath="1" hnt="2" hnd="2" hv="2" hd="2" hl="0.5" he="4" ht="0.22222222222222" hb="0.00083994736659658" hi="1" mi="91.191023588314"/>
+      <method name="postCreate" start="37" end="40" ccn="1" ccn2="1" loc="4" cloc="1" eloc="2" lloc="0" ncloc="3" npath="1" hnt="2" hnd="2" hv="2" hd="2" hl="0.5" he="4" ht="0.22222222222222" hb="0.00083994736659658" hi="1" mi="91.191023588314"/>
+    </class>
+    <class name="UserTokenFactoryDefault" start="15" end="26" loc="12" cloc="5" eloc="3" lloc="1" ncloc="7" dit="0" noam="0" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.2775" ca="1" cbo="3" ce="3" impl="1" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/var/www/html/Veloci/User/src/Factory/UserTokenFactoryDefault.php"/>
+      <method name="create" start="22" end="25" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="7" hnd="7" hv="19.651484454403" hd="6.25" hl="0.16" he="122.82177784002" ht="6.8234321022233" hb="0.0082362400950509" hi="3.1442375127045" mi="80.401219851729"/>
+    </class>
+  </package>
+  <package name="Veloci\User\Manager" noc="2" noi="2" nom="16" nof="0" cr="0.15" rcr="0.15">
+    <class name="AuthManagerDefault" start="20" end="108" loc="89" cloc="34" eloc="27" lloc="17" ncloc="55" dit="0" noam="0" nocc="0" noom="0" nom="4" cr="0.15" rcr="0.2775" ca="1" cbo="7" ce="7" impl="1" cis="4" csz="8" npm="4" vars="4" varsi="4" varsnp="0" wmc="6" wmci="6" wmcnp="6">
+      <file name="/var/www/html/Veloci/User/src/Manager/AuthManagerDefault.php"/>
+      <method name="__construct" start="47" end="58" ccn="1" ccn2="1" loc="12" cloc="0" eloc="6" lloc="4" ncloc="12" npath="1" hnt="12" hnd="18" hv="50.039100017308" hd="2.5" hl="0.4" he="125.09775004327" ht="6.9498750024039" hb="0.0083376772136711" hi="20.015640006923" mi="70.992346291003"/>
+      <method name="login" start="67" end="88" ccn="3" ccn2="3" loc="22" cloc="1" eloc="14" lloc="10" ncloc="21" npath="4" hnt="21" hnd="49" hv="117.90890672642" hd="6.525" hl="0.15325670498084" he="769.35561638989" ht="42.741978688327" hb="0.027987460757123" hi="18.070330532785" mi="60.08989885563"/>
+      <method name="isLogged" start="94" end="99" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="11" hnd="13" hv="40.704836899552" hd="5.6" hl="0.17857142857143" he="227.94708663749" ht="12.663727035416" hb="0.012438502827462" hi="7.26872087492" mi="75.46141948748"/>
+      <method name="logout" start="104" end="107" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+    </class>
+    <class name="UserManagerDefault" start="11" end="80" loc="70" cloc="26" eloc="24" lloc="11" ncloc="44" dit="0" noam="0" nocc="0" noom="0" nom="5" cr="0.15" rcr="0.2775" ca="1" cbo="5" ce="5" impl="1" cis="5" csz="7" npm="5" vars="2" varsi="2" varsnp="0" wmc="6" wmci="6" wmcnp="6">
+      <file name="/var/www/html/Veloci/User/src/Manager/UserManagerDefault.php"/>
+      <method name="__construct" start="28" end="32" ccn="1" ccn2="1" loc="5" cloc="0" eloc="4" lloc="2" ncloc="5" npath="1" hnt="8" hnd="10" hv="26.575424759099" hd="3" hl="0.33333333333333" he="79.726274277297" ht="4.4292374598498" hb="0.0061746601349011" hi="8.8584749196996" mi="76.757952883514"/>
+      <method name="signup" start="39" end="50" ccn="2" ccn2="2" loc="12" cloc="0" eloc="9" lloc="4" ncloc="12" npath="2" hnt="16" hnd="24" hv="73.359400011539" hd="6.6666666666667" hl="0.15" he="489.06266674359" ht="27.170148152422" hb="0.020691330595657" hi="11.003910001731" mi="65.853236532847"/>
+      <method name="enable" start="55" end="60" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="7" hnd="9" hv="22.189475010096" hd="4" hl="0.25" he="88.757900040385" ht="4.930994446688" hb="0.00663259416177" hi="5.547368752524" mi="77.306442891946"/>
+      <method name="disable" start="65" end="70" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="7" hnd="9" hv="22.189475010096" hd="4" hl="0.25" he="88.757900040385" ht="4.930994446688" hb="0.00663259416177" hi="5.547368752524" mi="77.306442891946"/>
+      <method name="exists" start="76" end="79" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="7" hnd="7" hv="19.651484454403" hd="6.25" hl="0.16" he="122.82177784002" ht="6.8234321022233" hb="0.0082362400950509" hi="3.1442375127045" mi="80.401219851729"/>
+    </class>
+  </package>
+  <package name="Veloci\User\Model" noc="4" noi="0" nom="19" nof="0" cr="0.15" rcr="0.5019">
+    <class name="UserDefault" start="14" end="130" loc="117" cloc="34" eloc="42" lloc="16" ncloc="83" dit="2" noam="11" nocc="0" noom="0" nom="11" cr="0.15" rcr="0.3954375" ca="1" cbo="3" ce="3" impl="2" cis="11" csz="15" npm="11" vars="4" varsi="4" varsnp="0" wmc="11" wmci="11" wmcnp="11">
+      <file name="/var/www/html/Veloci/User/src/Model/UserDefault.php"/>
+      <method name="__construct" start="42" end="47" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="10" hnd="12" hv="35.849625007212" hd="6" hl="0.16666666666667" he="215.09775004327" ht="11.949875002404" hb="0.01196656002761" hi="5.9749375012019" mi="75.847660347231"/>
+      <method name="getUsername" start="52" end="55" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="setUsername" start="60" end="63" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="getPassword" start="69" end="72" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="setPassword" start="77" end="80" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="isEnabled" start="86" end="89" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="getRole" start="94" end="97" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="setRole" start="99" end="102" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="enable" start="104" end="107" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="disable" start="109" end="112" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="setCustomMetadata" start="114" end="129" ccn="1" ccn2="1" loc="16" cloc="0" eloc="11" lloc="5" ncloc="16" npath="1" hnt="18" hnd="40" hv="95.794705707973" hd="3.6666666666667" hl="0.27272727272727" he="351.24725426257" ht="19.51373634792" hb="0.016594112775486" hi="26.125828829447" mi="63.275215204429"/>
+    </class>
+    <class name="UserRoleDefault" start="7" end="23" loc="17" cloc="3" eloc="6" lloc="2" ncloc="14" dit="0" noam="0" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.385875" ca="2" cbo="0" ce="0" impl="2" cis="2" csz="3" npm="2" vars="1" varsi="1" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/var/www/html/Veloci/User/src/Model/UserRoleDefault.php"/>
+      <method name="__construct" start="11" end="14" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="getName" start="19" end="22" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+    </class>
+    <class name="UserSessionDefault" start="17" end="61" loc="45" cloc="18" eloc="12" lloc="4" ncloc="27" dit="2" noam="4" nocc="0" noom="0" nom="4" cr="0.15" rcr="0.3954375" ca="1" cbo="2" ce="2" impl="2" cis="4" csz="6" npm="4" vars="2" varsi="2" varsnp="0" wmc="4" wmci="4" wmcnp="4">
+      <file name="/var/www/html/Veloci/User/src/Model/UserSessionDefault.php"/>
+      <method name="getUser" start="33" end="36" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="getToken" start="41" end="44" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="setUser" start="49" end="52" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="setToken" start="57" end="60" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+    </class>
+    <class name="UserTokenDefault" start="15" end="31" loc="17" cloc="3" eloc="6" lloc="2" ncloc="14" dit="0" noam="0" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.2775" ca="2" cbo="1" ce="1" impl="1" cis="2" csz="3" npm="2" vars="1" varsi="1" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/var/www/html/Veloci/User/src/Model/UserTokenDefault.php"/>
+      <method name="__construct" start="22" end="25" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="11" hnd="13" hv="40.704836899552" hd="4.8" hl="0.20833333333333" he="195.38321711785" ht="10.854623173214" hb="0.011223722387817" hi="8.4801743540733" mi="78.186828594918"/>
+      <method name="__toString" start="27" end="30" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+    </class>
+  </package>
+  <package name="Veloci\User\Repository" noc="4" noi="2" nom="17" nof="0" cr="0.15" rcr="0.2775">
+    <class name="InMemoryUserRepository" start="19" end="54" loc="36" cloc="9" eloc="16" lloc="8" ncloc="27" dit="2" noam="3" nocc="0" noom="0" nom="3" cr="0.15" rcr="0.30459375" ca="1" cbo="1" ce="1" impl="2" cis="2" csz="3" npm="2" vars="0" varsi="0" varsnp="0" wmc="5" wmci="5" wmcnp="4">
+      <file name="/var/www/html/Veloci/User/src/Repository/InMemoryUserRepository.php"/>
+      <method name="usernameAlreadyExists" start="25" end="30" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="11" hnd="13" hv="40.704836899552" hd="5.6" hl="0.17857142857143" he="227.94708663749" ht="12.663727035416" hb="0.012438502827462" hi="7.26872087492" mi="75.46141948748"/>
+      <method name="getUserByUsername" start="36" end="48" ccn="3" ccn2="3" loc="13" cloc="1" eloc="9" lloc="5" ncloc="12" npath="3" hnt="16" hnd="24" hv="73.359400011539" hd="10" hl="0.1" he="733.59400011539" ht="40.755222228633" hb="0.027113313296649" hi="7.3359400011539" mi="65.71873360887"/>
+      <method name="getModelClass" start="50" end="53" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+    </class>
+    <class name="InMemoryUserSessionRepository" start="17" end="53" loc="37" cloc="12" eloc="13" lloc="7" ncloc="25" dit="2" noam="3" nocc="0" noom="0" nom="3" cr="0.15" rcr="0.30459375" ca="1" cbo="3" ce="3" impl="2" cis="2" csz="4" npm="2" vars="1" varsi="1" varsnp="0" wmc="4" wmci="4" wmcnp="3">
+      <file name="/var/www/html/Veloci/User/src/Repository/InMemoryUserSessionRepository.php"/>
+      <method name="__construct" start="29" end="34" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="9" hnd="10" hv="29.897352853986" hd="7" hl="0.14285714285714" he="209.2814699779" ht="11.626748332106" hb="0.011749857421146" hi="4.2710504077123" mi="76.399782248769"/>
+      <method name="getByUser" start="40" end="47" ccn="2" ccn2="2" loc="8" cloc="0" eloc="6" lloc="4" ncloc="8" npath="5" hnt="13" hnd="22" hv="57.972611042285" hd="10.666666666667" hl="0.09375" he="618.37451778437" ht="34.35413987691" hb="0.024194304103199" hi="5.4349322852142" mi="70.41032110255"/>
+      <method name="getModelClass" start="49" end="52" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+    </class>
+    <class name="MongoDbUserRepository" start="17" end="58" loc="42" cloc="11" eloc="17" lloc="9" ncloc="31" dit="2" noam="4" nocc="0" noom="0" nom="4" cr="0.15" rcr="0.30459375" ca="1" cbo="2" ce="2" impl="2" cis="2" csz="4" npm="2" vars="0" varsi="0" varsnp="0" wmc="4" wmci="4" wmcnp="2">
+      <file name="/var/www/html/Veloci/User/src/Repository/MongoDbUserRepository.php"/>
+      <method name="getCollectionName" start="22" end="25" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="getModelClass" start="27" end="30" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="usernameAlreadyExists" start="36" end="41" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="11" hnd="13" hv="40.704836899552" hd="5.6" hl="0.17857142857143" he="227.94708663749" ht="12.663727035416" hb="0.012438502827462" hi="7.26872087492" mi="75.46141948748"/>
+      <method name="getUserByUsername" start="47" end="57" ccn="1" ccn2="1" loc="11" cloc="0" eloc="7" lloc="5" ncloc="11" npath="1" hnt="19" hnd="32" hv="95" hd="5.1153846153846" hl="0.19548872180451" he="485.96153846154" ht="26.997863247863" hb="0.020603769253575" hi="18.571428571429" mi="67.582512133907"/>
+    </class>
+    <class name="MongoDbUserSessionRepository" start="17" end="56" loc="40" cloc="11" eloc="16" lloc="8" ncloc="29" dit="2" noam="4" nocc="0" noom="0" nom="4" cr="0.15" rcr="0.30459375" ca="1" cbo="4" ce="4" impl="2" cis="2" csz="4" npm="2" vars="0" varsi="0" varsnp="0" wmc="4" wmci="4" wmcnp="2">
+      <file name="/var/www/html/Veloci/User/src/Repository/MongoDbUserSessionRepository.php"/>
+      <method name="getCollectionName" start="22" end="25" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="getByUser" start="31" end="41" ccn="1" ccn2="1" loc="11" cloc="0" eloc="7" lloc="5" ncloc="11" npath="1" hnt="19" hnd="33" hv="95.843488267811" hd="5.3846153846154" hl="0.18571428571429" he="516.08032144206" ht="28.671128969003" hb="0.021446525581816" hi="17.799504964022" mi="67.555631360679"/>
+      <method name="accept" start="47" end="50" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="7" hnd="7" hv="19.651484454403" hd="6.25" hl="0.16" he="122.82177784002" ht="6.8234321022233" hb="0.0082362400950509" hi="3.1442375127045" mi="80.401219851729"/>
+      <method name="getModelClass" start="52" end="55" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+    </class>
+  </package>
+  <package name="Veloci\User" noc="1" noi="4" nom="13" nof="0" cr="0.235" rcr="0.354">
+    <class name="UserPackage" start="56" end="131" loc="76" cloc="14" eloc="44" lloc="30" ncloc="62" dit="2" noam="1" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.2775" ca="0" cbo="47" ce="47" impl="0" cis="0" csz="1" npm="0" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="0">
+      <file name="/var/www/html/Veloci/User/src/UserPackage.php"/>
+      <method name="init" start="62" end="130" ccn="1" ccn2="1" loc="69" cloc="11" eloc="44" lloc="30" ncloc="58" npath="1" hnt="65" hnd="183" hv="488.52048948846" hd="4.7142857142857" hl="0.21212121212121" he="2303.0251647313" ht="127.94584248507" hb="0.058131456024525" hi="103.62555837634" mi="45.187686886692"/>
+    </class>
+  </package>
+</metrics>
